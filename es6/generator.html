@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>제너레이터 | DIMORIN BLOG</title>
+    <meta name="description" content="study study">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.93a325d7.css" as="style"><link rel="preload" href="/assets/js/app.63501b3e.js" as="script"><link rel="preload" href="/assets/js/12.ef1abc25.js" as="script"><link rel="prefetch" href="/assets/js/10.5e899eb2.js"><link rel="prefetch" href="/assets/js/11.d27e56c0.js"><link rel="prefetch" href="/assets/js/13.1acb3817.js"><link rel="prefetch" href="/assets/js/14.b9c902fd.js"><link rel="prefetch" href="/assets/js/15.a1c0ac3b.js"><link rel="prefetch" href="/assets/js/16.03aaf5a6.js"><link rel="prefetch" href="/assets/js/17.cbf4bdf8.js"><link rel="prefetch" href="/assets/js/18.bc2e5150.js"><link rel="prefetch" href="/assets/js/19.642e1454.js"><link rel="prefetch" href="/assets/js/2.3ed3599b.js"><link rel="prefetch" href="/assets/js/20.f2055153.js"><link rel="prefetch" href="/assets/js/21.37a70b60.js"><link rel="prefetch" href="/assets/js/22.b3f31ab3.js"><link rel="prefetch" href="/assets/js/23.baece59c.js"><link rel="prefetch" href="/assets/js/24.16eb9e78.js"><link rel="prefetch" href="/assets/js/25.90ed4776.js"><link rel="prefetch" href="/assets/js/26.137a14ef.js"><link rel="prefetch" href="/assets/js/27.1de22678.js"><link rel="prefetch" href="/assets/js/28.126b5897.js"><link rel="prefetch" href="/assets/js/29.a9516438.js"><link rel="prefetch" href="/assets/js/3.684c165d.js"><link rel="prefetch" href="/assets/js/30.b0efcf9e.js"><link rel="prefetch" href="/assets/js/31.f4e931fd.js"><link rel="prefetch" href="/assets/js/32.103a9652.js"><link rel="prefetch" href="/assets/js/33.b599df94.js"><link rel="prefetch" href="/assets/js/34.a76a83b4.js"><link rel="prefetch" href="/assets/js/35.83198bba.js"><link rel="prefetch" href="/assets/js/36.7574a19c.js"><link rel="prefetch" href="/assets/js/37.5e591143.js"><link rel="prefetch" href="/assets/js/38.2a757eff.js"><link rel="prefetch" href="/assets/js/4.c1016435.js"><link rel="prefetch" href="/assets/js/5.8801318f.js"><link rel="prefetch" href="/assets/js/6.8cffa3fd.js"><link rel="prefetch" href="/assets/js/7.7fc4645d.js"><link rel="prefetch" href="/assets/js/8.c623d00a.js"><link rel="prefetch" href="/assets/js/9.01d534eb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.93a325d7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">DIMORIN BLOG</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">HOME</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">ES6</a></div><div class="nav-item"><a href="/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/staticsite/" class="nav-link">Static Site</a></div><div class="nav-item"><a href="/pwa/" class="nav-link">PWA</a></div><div class="nav-item"><a href="/tool/" class="nav-link">프론트엔드개발툴</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/about.html" class="nav-link">ABOUT</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">HOME</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">ES6</a></div><div class="nav-item"><a href="/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/staticsite/" class="nav-link">Static Site</a></div><div class="nav-item"><a href="/pwa/" class="nav-link">PWA</a></div><div class="nav-item"><a href="/tool/" class="nav-link">프론트엔드개발툴</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/about.html" class="nav-link">ABOUT</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/es6/" class="sidebar-link">ECMAScript6</a></li><li><a href="/es6/let.html" class="sidebar-link">let, const와 블록 레벨 스코프</a></li><li><a href="/es6/templateliteral.html" class="sidebar-link">템플릿 리터럴</a></li><li><a href="/es6/arrow.html" class="sidebar-link">화살표 함수</a></li><li><a href="/es6/parameter.html" class="sidebar-link">파라미터 기본값, Rest 파라미터, Spread 연산자, Rest/Spread 프로퍼티</a></li><li><a href="/es6/enhancedobjectliteral.html" class="sidebar-link">객체 리터럴 프로퍼티 기능 확장</a></li><li><a href="/es6/destructuring.html" class="sidebar-link">디스트럭처링</a></li><li><a href="/es6/class.html" class="sidebar-link">클래스</a></li><li><a href="/es6/module.html" class="sidebar-link">모듈</a></li><li><a href="/es6/promise.html" class="sidebar-link">프로미스</a></li><li><a href="/es6/symbol.html" class="sidebar-link">7번째 타입 심볼(Symbol)</a></li><li><a href="/es6/forofloop.html" class="sidebar-link">이터레이션과 for...of 문</a></li><li><a href="/es6/generator.html" class="active sidebar-link">제너레이터</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/es6/generator.html#제너레이터란" class="sidebar-link">제너레이터란?</a></li><li class="sidebar-sub-header"><a href="/es6/generator.html#제너레이터-함수의-정의" class="sidebar-link">제너레이터 함수의 정의</a></li><li class="sidebar-sub-header"><a href="/es6/generator.html#제너레이터-함수의-호출과-제너레이터-객체" class="sidebar-link">제너레이터 함수의 호출과 제너레이터 객체</a></li><li class="sidebar-sub-header"><a href="/es6/generator.html#제너레이터의-활용" class="sidebar-link">제너레이터의 활용</a></li></ul></li></ul> </div> <div class="page"> <div class="content"><h1 id="제너레이터"><a href="#제너레이터" aria-hidden="true" class="header-anchor">#</a> 제너레이터</h1> <h2 id="제너레이터란"><a href="#제너레이터란" aria-hidden="true" class="header-anchor">#</a> 제너레이터란?</h2> <p>ES6에서 도입된 제너레이터(Generator) 함수는 이터러블을 생성하는 함수이다.
+제너레이터 함수를 사용하면 이터레이션 프로토콜을 준수해 이터러블을 생성하는 방식보다 간편하게 이터러블을 구현할 수 있다. 또한 제너레이터 함수는 비동기 처리에 유용하게 사용된다.</p> <div class="language- extra-class"><pre class="language-text"><code>// 이터레이션 프로토콜을 구현하여 무한 이터러블을 생성하는 함수
+const createInfinityByIteration = function () {
+  let i = 0; // 자유 변수
+  return {
+    [Symbol.iterator]() { return this; },
+    next() {
+      return { value: ++i };
+    }
+  };
+};
+
+for (const n of createInfinityByIteration()) {
+  if (n &gt; 5) break;
+  console.log(n); // 1 2 3 4 5
+}
+
+// 무한 이터러블을 생성하는 제너레이터 함수
+function* createInfinityByGenerator() {
+  let i = 0;
+  while (true) { yield ++i; }
+}
+
+for (const n of createInfinityByGenerator()) {
+  if (n &gt; 5) break;
+  console.log(n); // 1 2 3 4 5
+}
+</code></pre></div><p>제너레이터 함수는 일반 함수와는 다른 독특한 동작을 한다. 제너레이터 함수는 일반 함수와 같이 함수의 코드 블록을 한 번에 실행하지 않고 함수 코드 블록의 실행을 일시 중지했다가 필요한 시점에 재시작할 수 있는 특수한 함수이다.</p> <div class="language- extra-class"><pre class="language-text"><code>function* counter() {
+  console.log('첫번째 호출');
+  yield 1;                  // 첫번째 호출 시에 이 지점까지 실행된다.
+  console.log('두번째 호출');
+  yield 2;                  // 두번째 호출 시에 이 지점까지 실행된다.
+  console.log('세번째 호출');  // 세번째 호출 시에 이 지점까지 실행된다.
+}
+
+const generatorObj = counter();
+
+console.log(generatorObj.next()); // 첫번째 호출 {value: 1, done: false}
+console.log(generatorObj.next()); // 두번째 호출 {value: 2, done: false}
+console.log(generatorObj.next()); // 세번째 호출 {value: undefined, done: true}
+</code></pre></div><p>일반 함수를 호출하면 return 문으로 반환값을 리턴하지만 제너레이터 함수를 호출하면 제너레이터를 반환한다. 이 제너레이터는 이터러블(iterable)이면서 동시에 이터레이터(iterator)인 객체이다. 다시 말해 제너레이터 함수가 생성한 제너레이터는 Symbol.iterator 메소드를 소유한 이터러블이다. 그리고 제너레이터는 next 메소드를 소유하며 next 메소드를 호출하면 value, done 프로퍼티를 갖는 이터레이터 리절트 객체를 반환하는 이터레이터이다.</p> <div class="language- extra-class"><pre class="language-text"><code>// 제너레이터 함수 정의
+function* counter() {
+  for (const v of [1, 2, 3]) yield v;
+  // =&gt; yield* [1, 2, 3];
+}
+
+// 제너레이터 함수를 호출하면 제너레이터를 반환한다.
+let generatorObj = counter();
+
+// 제너레이터는 이터러블이다.
+console.log(Symbol.iterator in generatorObj); // true
+
+for (const i of generatorObj) {
+  console.log(i); // 1 2 3
+}
+
+generatorObj = counter();
+
+// 제너레이터는 이터레이터이다.
+console.log('next' in generatorObj); // true
+
+console.log(generatorObj.next()); // {value: 1, done: false}
+console.log(generatorObj.next()); // {value: 2, done: false}
+console.log(generatorObj.next()); // {value: 3, done: false}
+console.log(generatorObj.next()); // {value: undefined, done: true}
+</code></pre></div><h2 id="제너레이터-함수의-정의"><a href="#제너레이터-함수의-정의" aria-hidden="true" class="header-anchor">#</a> 제너레이터 함수의 정의</h2> <p>제너레이터 함수는 <code>function*</code> 키워드로 선언한다. 그리고 하나 이상의 <code>yield 문</code>을 포함한다.</p> <div class="language- extra-class"><pre class="language-text"><code>// 제너레이터 함수 선언문
+function* genDecFunc() {
+  yield 1;
+}
+
+let generatorObj = genDecFunc();
+
+// 제너레이터 함수 표현식
+const genExpFunc = function* () {
+  yield 1;
+};
+
+generatorObj = genExpFunc();
+
+// 제너레이터 메소드
+const obj = {
+  * generatorObjMethod() {
+    yield 1;
+  }
+};
+
+generatorObj = obj.generatorObjMethod();
+
+// 제너레이터 클래스 메소드
+class MyClass {
+  * generatorClsMethod() {
+    yield 1;
+  }
+}
+
+const myClass = new MyClass();
+generatorObj = myClass.generatorClsMethod();
+</code></pre></div><h2 id="제너레이터-함수의-호출과-제너레이터-객체"><a href="#제너레이터-함수의-호출과-제너레이터-객체" aria-hidden="true" class="header-anchor">#</a> 제너레이터 함수의 호출과 제너레이터 객체</h2> <p>제너레이터 함수를 호출하면 제너레이터 함수의 코드 블록이 실행되는 것이 아니라 제너레이터 객체를 반환한다. 앞에서 살펴본 바와 같이 제너레이터 객체는 이터러블이며 동시에 이터레이터이다. 따라서 next 메소드를 호출하기 위해 Symbol.iterator 메소드로 이터레이터를 별도 생성할 필요가 없다. 아래 예제를 살펴보자.</p> <div class="language- extra-class"><pre class="language-text"><code>// 제너레이터 함수 정의
+function* counter() {
+  console.log('Point 1');
+  yield 1;                // 첫번째 next 메소드 호출 시 여기까지 실행된다.
+  console.log('Point 2');
+  yield 2;                // 두번째 next 메소드 호출 시 여기까지 실행된다.
+  console.log('Point 3');
+  yield 3;                // 세번째 next 메소드 호출 시 여기까지 실행된다.
+  console.log('Point 4'); // 네번째 next 메소드 호출 시 여기까지 실행된다.
+}
+
+// 제너레이터 함수를 호출하면 제너레이터 객체를 반환한다.
+// 제너레이터 객체는 이터러블이며 동시에 이터레이터이다.
+// 따라서 Symbol.iterator 메소드로 이터레이터를 별도 생성할 필요가 없다
+const generatorObj = counter();
+
+// 첫번째 next 메소드 호출: 첫번째 yield 문까지 실행되고 일시 중단된다.
+console.log(generatorObj.next());
+// Point 1
+// {value: 1, done: false}
+
+// 두번째 next 메소드 호출: 두번째 yield 문까지 실행되고 일시 중단된다.
+console.log(generatorObj.next());
+// Point 2
+// {value: 2, done: false}
+
+// 세번째 next 메소드 호출: 세번째 yield 문까지 실행되고 일시 중단된다.
+console.log(generatorObj.next());
+// Point 3
+// {value: 3, done: false}
+
+// 네번째 next 메소드 호출: 제너레이터 함수 내의 모든 yield 문이 실행되면 done 프로퍼티 값은 true가 된다.
+console.log(generatorObj.next());
+// Point 4
+// {value: undefined, done: true}
+</code></pre></div><h2 id="제너레이터의-활용"><a href="#제너레이터의-활용" aria-hidden="true" class="header-anchor">#</a> 제너레이터의 활용</h2> <h3 id="이터러블의-구현"><a href="#이터러블의-구현" aria-hidden="true" class="header-anchor">#</a> 이터러블의 구현</h3> <p>제너레이터 함수를 사용하면 이터레이션 프로토콜을 준수해 이터러블을 생성하는 방식보다 간편하게 이터러블을 구현할 수 있다. 이터레이션 프로토콜을 준수하여 무한 피보나치 수열을 생성하는 함수를 구현해 보자.</p> <div class="language- extra-class"><pre class="language-text"><code>// 무한 이터러블을 생성하는 함수
+const infiniteFibonacci = (function () {
+  let [pre, cur] = [0, 1];
+
+  return {
+    [Symbol.iterator]() { return this; },
+    next() {
+      [pre, cur] = [cur, pre + cur];
+      // done 프로퍼티를 생략한다.
+      return { value: cur };
+    }
+  };
+}());
+
+// infiniteFibonacci는 무한 이터러블이다.
+for (const num of infiniteFibonacci) {
+  if (num &gt; 10000) break;
+  console.log(num); // 1 2 3 5 8...
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>// 무한 이터러블을 생성하는 제너레이터 함수
+const infiniteFibonacci = (function* () {
+  let [pre, cur] = [0, 1];
+
+  while (true) {
+    [pre, cur] = [cur, pre + cur];
+    yield cur;
+  }
+}());
+
+// infiniteFibonacci는 무한 이터러블이다.
+for (const num of infiniteFibonacci) {
+  if (num &gt; 10000) break;
+  console.log(num);
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>// 무한 이터러블을 생성하는 제너레이터 함수
+const createInfiniteFibByGen = function* (max) {
+  let [prev, curr] = [0, 1];
+
+  while (true) {
+    [prev, curr] = [curr, prev + curr];
+    if (curr &gt;= max) return; // 제너레이터 함수 종료
+    yield curr;
+  }
+};
+
+for (const num of createInfiniteFibByGen(10000)) {
+  console.log(num);
+}
+</code></pre></div><p>이터레이터의 next 메소드와 다르게 제너레이터 객체의 next 메소드에는 인수를 전달할 수도 있다. 이를 통해 제너레이터 객체에 데이터를 전달할 수 있다.</p> <div class="language- extra-class"><pre class="language-text"><code>function* gen(n) {
+  let res;
+  res = yield n;    // n: 0 ⟸ gen 함수에 전달한 인수
+
+  console.log(res); // res: 1 ⟸ 두번째 next 호출 시 전달한 데이터
+  res = yield res;
+
+  console.log(res); // res: 2 ⟸ 세번째 next 호출 시 전달한 데이터
+  res = yield res;
+
+  console.log(res); // res: 3 ⟸ 네번째 next 호출 시 전달한 데이터
+  return res;
+}
+const generatorObj = gen(0);
+
+console.log(generatorObj.next());  // 제너레이터 함수 시작
+console.log(generatorObj.next(1)); // 제너레이터 객체에 1 전달
+console.log(generatorObj.next(2)); // 제너레이터 객체에 2 전달
+console.log(generatorObj.next(3)); // 제너레이터 객체에 3 전달
+/*
+{ value: 0, done: false }
+{ value: 1, done: false }
+{ value: 2, done: false }
+{ value: 3, done: true }
+*/
+</code></pre></div><h3 id="비동기-처리"><a href="#비동기-처리" aria-hidden="true" class="header-anchor">#</a> 비동기 처리</h3> <p>제너레이터를 사용해 비동기 처리를 동기 처리처럼 구현할 수 있다. 다시 말해 비동기 처리 함수가 처리 결과를 반환하도록 구현할 수 있다.</p> <div class="language- extra-class"><pre class="language-text"><code>const fetch = require('node-fetch');
+
+function getUser(genObj, username) {
+  fetch(`https://api.github.com/users/${username}`)
+    .then(res =&gt; res.json())
+    // ① 제너레이터 객체에 비동기 처리 결과를 전달한다.
+    .then(user =&gt; genObj.next(user.name));
+}
+
+// 제너레이터 객체 생성
+const g = (function* () {
+  let user;
+  // ② 비동기 처리 함수가 결과를 반환한다.
+  // 비동기 처리의 순서가 보장된다.
+  user = yield getUser(g, 'jeresig');
+  console.log(user); // John Resig
+
+  user = yield getUser(g, 'ahejlsberg');
+  console.log(user); // Anders Hejlsberg
+
+  user = yield getUser(g, 'ungmo2');
+  console.log(user); // Ungmo Lee
+}());
+
+// 제너레이터 함수 시작
+g.next();
+</code></pre></div><p>① 비동기 처리가 완료되면 next 메소드를 통해 제너레이터 객체에 비동기 처리 결과를 전달한다.</p> <p>② 제너레이터 객체에 전달된 비동기 처리 결과는 user 변수에 할당된다.</p> <p>제너레이터을 통해 비동기 처리를 동기 처리처럼 구현할 수 있으나 코드는 장황해졌다. 따라서 좀 더 간편하게 비동기 처리를 구현할 수 있는 async/awit가 ES7에서 도입되었다.</p> <p>위 예제를 async/awit 구현해 보자.</p> <div class="language- extra-class"><pre class="language-text"><code>const fetch = require('node-fetch');
+
+// Promise를 반환하는 함수 정의
+function getUser(username) {
+  return fetch(`https://api.github.com/users/${username}`)
+    .then(res =&gt; res.json())
+    .then(user =&gt; user.name);
+}
+
+async function getUserAll() {
+  let user;
+  user = await getUser('jeresig');
+  console.log(user);
+
+  user = await getUser('ahejlsberg');
+  console.log(user);
+
+  user = await getUser('ungmo2');
+  console.log(user);
+}
+
+getUserAll();
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/es6/forofloop.html" class="prev">
+          이터레이션과 for...of 문
+        </a></span> <!----></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.63501b3e.js" defer></script><script src="/assets/js/12.ef1abc25.js" defer></script>
+  </body>
+</html>

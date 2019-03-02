@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>객체 리터럴 프로퍼티 기능 확장 | DIMORIN BLOG</title>
+    <meta name="description" content="study study">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.93a325d7.css" as="style"><link rel="preload" href="/assets/js/app.63501b3e.js" as="script"><link rel="preload" href="/assets/js/10.5e899eb2.js" as="script"><link rel="prefetch" href="/assets/js/11.d27e56c0.js"><link rel="prefetch" href="/assets/js/12.ef1abc25.js"><link rel="prefetch" href="/assets/js/13.1acb3817.js"><link rel="prefetch" href="/assets/js/14.b9c902fd.js"><link rel="prefetch" href="/assets/js/15.a1c0ac3b.js"><link rel="prefetch" href="/assets/js/16.03aaf5a6.js"><link rel="prefetch" href="/assets/js/17.cbf4bdf8.js"><link rel="prefetch" href="/assets/js/18.bc2e5150.js"><link rel="prefetch" href="/assets/js/19.642e1454.js"><link rel="prefetch" href="/assets/js/2.3ed3599b.js"><link rel="prefetch" href="/assets/js/20.f2055153.js"><link rel="prefetch" href="/assets/js/21.37a70b60.js"><link rel="prefetch" href="/assets/js/22.b3f31ab3.js"><link rel="prefetch" href="/assets/js/23.baece59c.js"><link rel="prefetch" href="/assets/js/24.16eb9e78.js"><link rel="prefetch" href="/assets/js/25.90ed4776.js"><link rel="prefetch" href="/assets/js/26.137a14ef.js"><link rel="prefetch" href="/assets/js/27.1de22678.js"><link rel="prefetch" href="/assets/js/28.126b5897.js"><link rel="prefetch" href="/assets/js/29.a9516438.js"><link rel="prefetch" href="/assets/js/3.684c165d.js"><link rel="prefetch" href="/assets/js/30.b0efcf9e.js"><link rel="prefetch" href="/assets/js/31.f4e931fd.js"><link rel="prefetch" href="/assets/js/32.103a9652.js"><link rel="prefetch" href="/assets/js/33.b599df94.js"><link rel="prefetch" href="/assets/js/34.a76a83b4.js"><link rel="prefetch" href="/assets/js/35.83198bba.js"><link rel="prefetch" href="/assets/js/36.7574a19c.js"><link rel="prefetch" href="/assets/js/37.5e591143.js"><link rel="prefetch" href="/assets/js/38.2a757eff.js"><link rel="prefetch" href="/assets/js/4.c1016435.js"><link rel="prefetch" href="/assets/js/5.8801318f.js"><link rel="prefetch" href="/assets/js/6.8cffa3fd.js"><link rel="prefetch" href="/assets/js/7.7fc4645d.js"><link rel="prefetch" href="/assets/js/8.c623d00a.js"><link rel="prefetch" href="/assets/js/9.01d534eb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.93a325d7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">DIMORIN BLOG</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">HOME</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">ES6</a></div><div class="nav-item"><a href="/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/staticsite/" class="nav-link">Static Site</a></div><div class="nav-item"><a href="/pwa/" class="nav-link">PWA</a></div><div class="nav-item"><a href="/tool/" class="nav-link">프론트엔드개발툴</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/about.html" class="nav-link">ABOUT</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">HOME</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">ES6</a></div><div class="nav-item"><a href="/vue/" class="nav-link">Vue</a></div><div class="nav-item"><a href="/staticsite/" class="nav-link">Static Site</a></div><div class="nav-item"><a href="/pwa/" class="nav-link">PWA</a></div><div class="nav-item"><a href="/tool/" class="nav-link">프론트엔드개발툴</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/about.html" class="nav-link">ABOUT</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/es6/" class="sidebar-link">ECMAScript6</a></li><li><a href="/es6/let.html" class="sidebar-link">let, const와 블록 레벨 스코프</a></li><li><a href="/es6/templateliteral.html" class="sidebar-link">템플릿 리터럴</a></li><li><a href="/es6/arrow.html" class="sidebar-link">화살표 함수</a></li><li><a href="/es6/parameter.html" class="sidebar-link">파라미터 기본값, Rest 파라미터, Spread 연산자, Rest/Spread 프로퍼티</a></li><li><a href="/es6/enhancedobjectliteral.html" class="active sidebar-link">객체 리터럴 프로퍼티 기능 확장</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/es6/enhancedobjectliteral.html#프로퍼티-축약-표현" class="sidebar-link">프로퍼티 축약 표현</a></li><li class="sidebar-sub-header"><a href="/es6/enhancedobjectliteral.html#프로퍼티-키-동적-생성" class="sidebar-link">프로퍼티 키 동적 생성</a></li><li class="sidebar-sub-header"><a href="/es6/enhancedobjectliteral.html#메소드-축약-표현" class="sidebar-link">메소드 축약 표현</a></li><li class="sidebar-sub-header"><a href="/es6/enhancedobjectliteral.html#proto-프로퍼티에-의한-상속" class="sidebar-link">_proto_ 프로퍼티에 의한 상속</a></li></ul></li><li><a href="/es6/destructuring.html" class="sidebar-link">디스트럭처링</a></li><li><a href="/es6/class.html" class="sidebar-link">클래스</a></li><li><a href="/es6/module.html" class="sidebar-link">모듈</a></li><li><a href="/es6/promise.html" class="sidebar-link">프로미스</a></li><li><a href="/es6/symbol.html" class="sidebar-link">7번째 타입 심볼(Symbol)</a></li><li><a href="/es6/forofloop.html" class="sidebar-link">이터레이션과 for...of 문</a></li><li><a href="/es6/generator.html" class="sidebar-link">제너레이터</a></li></ul> </div> <div class="page"> <div class="content"><h1 id="객체-리터럴-프로퍼티-기능-확장"><a href="#객체-리터럴-프로퍼티-기능-확장" aria-hidden="true" class="header-anchor">#</a> 객체 리터럴 프로퍼티 기능 확장</h1> <h2 id="프로퍼티-축약-표현"><a href="#프로퍼티-축약-표현" aria-hidden="true" class="header-anchor">#</a> 프로퍼티 축약 표현</h2> <div class="language- extra-class"><pre class="language-text"><code>// ES5  
+var  x  =  1,  y  =  2;  
+var  obj  =  {  
+	x:  x,  
+	y:  y  
+};  
+console.log(obj);  // { x: 1, y: 2 }
+
+// ES6  
+let  x  =  1,  y  =  2;  
+const  obj  =  {  x,  y  };  
+console.log(obj);  // { x: 1, y: 2 }
+</code></pre></div><h2 id="프로퍼티-키-동적-생성"><a href="#프로퍼티-키-동적-생성" aria-hidden="true" class="header-anchor">#</a> 프로퍼티 키 동적 생성</h2> <div class="language- extra-class"><pre class="language-text"><code>// ES5  
+var  prefix  =  'prop';  
+var  i  =  0;  
+var  obj  =  {};  
+obj[prefix  +  '-'  +  ++i]  =  i;  
+obj[prefix  +  '-'  +  ++i]  =  i;  
+obj[prefix  +  '-'  +  ++i]  =  i;  console.log(obj);  // {prop-1: 1, prop-2: 2, prop-3: 3}
+
+// ES6  
+const  prefix  =  'prop';  
+let  i  =  0;  
+const  obj  =  {  
+	[`${prefix}-${++i}`]:  i,  
+	[`${prefix}-${++i}`]:  i,  
+	[`${prefix}-${++i}`]:  i  
+};  
+console.log(obj);  // {prop-1: 1, prop-2: 2, prop-3: 3}
+</code></pre></div><h2 id="메소드-축약-표현"><a href="#메소드-축약-표현" aria-hidden="true" class="header-anchor">#</a> 메소드 축약 표현</h2> <div class="language- extra-class"><pre class="language-text"><code>// ES5  
+var  obj  =  {  
+	name:  'Lee',  
+	sayHi:  function()  {  
+		console.log('Hi! '  +  this.name);  
+	}  
+};  
+obj.sayHi();  // Hi! Lee
+
+// ES6  
+const  obj  =  {  
+	name:  'Lee',  
+	// 메소드 축약 표현  
+	sayHi()  {  
+		console.log('Hi! '  +  this.name);  
+	}  
+};  
+obj.sayHi();  // Hi! Lee
+</code></pre></div><h2 id="proto-프로퍼티에-의한-상속"><a href="#proto-프로퍼티에-의한-상속" aria-hidden="true" class="header-anchor">#</a> <strong>proto</strong> 프로퍼티에 의한 상속</h2> <div class="language- extra-class"><pre class="language-text"><code>// ES5  
+var  parent  =  {  
+	name:  'parent',  
+	sayHi:  function()  {  
+		console.log('Hi! '  +  this.name);  
+	}  
+};  
+// 프로토타입 패턴 상속  
+var  child  =  Object.create(parent);  
+child.name  =  'child';  
+parent.sayHi();  // Hi! parent  
+child.sayHi();  // Hi! child
+
+// ES6  
+const  parent  =  {  
+	name:  'parent',  
+	sayHi()  {  
+		console.log('Hi! '  +  this.name);  
+	}  
+};  
+const  child  =  {  
+	// child 객체의 프로토타입 객체에 parent 객체를 바인딩하여 상속을 구현한다.  
+	__proto__:  parent,  
+	name:  'child'  
+};  
+parent.sayHi();  // Hi! parent  
+child.sayHi();  // Hi! child
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/es6/parameter.html" class="prev">
+          파라미터 기본값, Rest 파라미터, Spread 연산자, Rest/Spread 프로퍼티
+        </a></span> <span class="next"><a href="/es6/destructuring.html">
+          디스트럭처링
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.63501b3e.js" defer></script><script src="/assets/js/10.5e899eb2.js" defer></script>
+  </body>
+</html>
